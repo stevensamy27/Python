@@ -3,7 +3,7 @@ import requests
 # Create your views here.
 
 def index(request):
-    api_url = 'https://api.openweathermap.org./data/2.5/weather?appid=0c42f7f6b53b244c78a418f4f181282a&q='
+    api_url = 'https://api.openweathermap.org./data/2.5/weather?appid='
     city_name = "Kuwait"
 
     url = api_url + city_name
