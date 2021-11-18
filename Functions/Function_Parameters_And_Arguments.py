@@ -18,6 +18,7 @@ def say_hello(n):
 
   print(f"Hello {n}")
 
+say_hello("Ahmed")
 say_hello(a)
 say_hello(b)
 say_hello(c)

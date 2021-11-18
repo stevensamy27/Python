@@ -9,6 +9,8 @@ myList = [1, 2, 3, 5]
 print(myList)
 print(*myList)
 
+
+
 def say_hello(*peoples):  # n1, n2, n3, n4
 
   for name in peoples:
@@ -16,6 +18,8 @@ def say_hello(*peoples):  # n1, n2, n3, n4
     print(f"Hello {name}")
 
 say_hello("Osama", "Ahmed", "Sayed", "Mahmoud")
+
+
 
 def show_details(name, *skills):
 
