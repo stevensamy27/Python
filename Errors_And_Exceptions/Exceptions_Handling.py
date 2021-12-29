@@ -13,6 +13,8 @@
 
 # print(number)
 # print(type(number))
+   
+##### First EX #######
 
 try:  # Try The Code and Test Errors
 
@@ -35,6 +37,9 @@ finally:
 print(50*"#")
 try:
 
+
+##### Second EX #######
+
   # print(10 / 0)
   # print(x)
   print(int("Hello"))
@@ -51,15 +56,17 @@ except ValueError: # in case ValueError
 
   print("Value Error")
 
-except:
+except: # in case any another error 
 
-  print("Error Happens")
+  print("Error Happens for other errors ")
 
 
   ###OUTPUT###
 
 
 '''
+##### First EX #######
+
 Write Your Age: 20
 Good, This Is Integer From Try
 Good, This Is Integer From Else
@@ -68,6 +75,7 @@ Print From Finally Whatever Happens
 
 ##################################################
 
+##### Second EX #######
 
 Value Error 
 
