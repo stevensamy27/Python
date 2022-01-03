@@ -21,7 +21,14 @@ def function_one_one():
 function_one_one()
 
 
-###OUTPUT###
+### EXPLATION ###
+'''
+1- we must Select or Determine a BreakPoint that we need to chech
+2- Run the code as Run And Debugging (Ctrl+Shift+D) 
+3- if we change on the code we can reload a debugging
+'''
+
+### OUTPUT ###
 '''
 1
 2
