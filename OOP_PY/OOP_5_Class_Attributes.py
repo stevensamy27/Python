@@ -73,8 +73,8 @@ print(Member.users_num)
 print(dir(member_one))
 
 print(member_one.fname, member_one.mname, member_one.lname)
-print(member_two.fname)
-print(member_three.fname)
+# print(member_two.fname)
+# print(member_three.fname)
 
 print(member_two.full_name())
 print(member_two.name_with_title())
@@ -106,11 +106,12 @@ User Shit Is Deleted.
 'not_allowed_names', 'users_num']
 '''
 
-
+# print(member_one.fname, member_one.mname, member_one.lname)
+# print(member_two.full_name())
+# print(member_two.name_with_title())
+# print(member_three.get_all_info())
 '''
 Steven Samy Mekhael
-Ahmed
-Mona
 Ahmed Ali Mahmoud
 Hello Mr Ahmed
 Hello Miss Mona, Your Full Name Is: Mona Ali Mahmoud
